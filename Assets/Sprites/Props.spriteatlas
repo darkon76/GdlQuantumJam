@@ -23,19 +23,104 @@ SpriteAtlas:
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 0
-      enableTightPacking: 0
+      enableTightPacking: 1
     packedHash:
       serializedVersion: 2
-      Hash: 6b5d6da1dce0b49c7dbf83f9f8a2fa83
+      Hash: 7a8e097cc67c348b70c54472ad3e2436
     variantMultiplier: 1
     bindAsDefault: 1
     finalFormat: 4
-    hashString: 6b5d6da1dce0b49c7dbf83f9f8a2fa83
-    totalSpriteSurfaceArea: 0
-    packables: []
-    packedSpriteRenderDataKeys: []
+    hashString: 7a8e097cc67c348b70c54472ad3e2436
+    totalSpriteSurfaceArea: 2176
+    packables:
+    - {fileID: 102900000, guid: efb3f4885073a99419771aa98e8349fe, type: 3}
+    packedSpriteRenderDataKeys:
+    - cad5b3e391e4aa84dbf68f867f75b862: 21300000
+    - 3727046bff2a6bd409d72fa491b221fa: 21300000
+    - e34332decaa57294ea0f744a2733153e: 21300000
+    - 929680f60714e6443bae0e74fce48e0c: 21300000
+    - b2f53176f949bf8409ef16c661011500: 21300000
+    - 38ac7663cbe0c6c44b419d59887aa37c: 21300000
+    - 4e56c5dd14091a949b99c792b6494dcc: 21300000
+    - 49e4bfae4b01ed546827fd12a2692713: 21300000
+    - 4bebd6c7e53d96641868c4178c73b171: 21300000
+    - 311383c9f627ffc49a68989b92608e5d: 21300000
+    - ac12458dccb324a4b8b392b42dc07987: 21300000
+    - e0e851564b511a0479e086f901f895bd: 21300000
+    - dbd088adca361c74d90f06011ab58747: 21300000
+    - 5b38543f42ab6224ab636f2c1992d0d4: 21300000
+    - aeb4229fe4b45ec4cb40431a6dacd1b5: 21300000
+    - bed5a7484a9b86944a86c2bdc1acd2dd: 21300000
+    - 1b7df4e80a366a443a2d93934fde8604: 21300000
+    - 5f3e22e700f58c64984d86cc04f9aefb: 21300000
+    - e7f7319586921ac47b091ee80dff6b82: 21300000
+    - b19216516ede2984d97b4f59f80fa83d: 21300000
+    - 6c4cddf9f88c4ff4d9a55c2deb20784a: 21300000
+    - e7a753ec5b4288e43a0c595f37ea28d0: 21300000
+    - b8379276428d91140a7a4fddd36a056d: 21300000
+    - c666cd0c55f0ecf4aa1c52d419da77d1: 21300000
+    - e54f5e6ac35332c4bb9a293d3f243a42: 21300000
+    - 07ffd2a8224d7ca4c9c3f86981e71959: 21300000
+    - 4c786bd7c39b31346a4df6297b53602f: 21300000
+    - df6634121d7fabd4ca00f8a05b3f0cfb: 21300000
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites: []
-  m_PackedSpriteNamesToIndex: []
+  m_PackedSprites:
+  - {fileID: 21300000, guid: cad5b3e391e4aa84dbf68f867f75b862, type: 3}
+  - {fileID: 21300000, guid: 3727046bff2a6bd409d72fa491b221fa, type: 3}
+  - {fileID: 21300000, guid: e34332decaa57294ea0f744a2733153e, type: 3}
+  - {fileID: 21300000, guid: 929680f60714e6443bae0e74fce48e0c, type: 3}
+  - {fileID: 21300000, guid: b2f53176f949bf8409ef16c661011500, type: 3}
+  - {fileID: 21300000, guid: 38ac7663cbe0c6c44b419d59887aa37c, type: 3}
+  - {fileID: 21300000, guid: 4e56c5dd14091a949b99c792b6494dcc, type: 3}
+  - {fileID: 21300000, guid: 49e4bfae4b01ed546827fd12a2692713, type: 3}
+  - {fileID: 21300000, guid: 4bebd6c7e53d96641868c4178c73b171, type: 3}
+  - {fileID: 21300000, guid: 311383c9f627ffc49a68989b92608e5d, type: 3}
+  - {fileID: 21300000, guid: ac12458dccb324a4b8b392b42dc07987, type: 3}
+  - {fileID: 21300000, guid: e0e851564b511a0479e086f901f895bd, type: 3}
+  - {fileID: 21300000, guid: dbd088adca361c74d90f06011ab58747, type: 3}
+  - {fileID: 21300000, guid: 5b38543f42ab6224ab636f2c1992d0d4, type: 3}
+  - {fileID: 21300000, guid: aeb4229fe4b45ec4cb40431a6dacd1b5, type: 3}
+  - {fileID: 21300000, guid: bed5a7484a9b86944a86c2bdc1acd2dd, type: 3}
+  - {fileID: 21300000, guid: 1b7df4e80a366a443a2d93934fde8604, type: 3}
+  - {fileID: 21300000, guid: 5f3e22e700f58c64984d86cc04f9aefb, type: 3}
+  - {fileID: 21300000, guid: e7f7319586921ac47b091ee80dff6b82, type: 3}
+  - {fileID: 21300000, guid: b19216516ede2984d97b4f59f80fa83d, type: 3}
+  - {fileID: 21300000, guid: 6c4cddf9f88c4ff4d9a55c2deb20784a, type: 3}
+  - {fileID: 21300000, guid: e7a753ec5b4288e43a0c595f37ea28d0, type: 3}
+  - {fileID: 21300000, guid: b8379276428d91140a7a4fddd36a056d, type: 3}
+  - {fileID: 21300000, guid: c666cd0c55f0ecf4aa1c52d419da77d1, type: 3}
+  - {fileID: 21300000, guid: e54f5e6ac35332c4bb9a293d3f243a42, type: 3}
+  - {fileID: 21300000, guid: 07ffd2a8224d7ca4c9c3f86981e71959, type: 3}
+  - {fileID: 21300000, guid: 4c786bd7c39b31346a4df6297b53602f, type: 3}
+  - {fileID: 21300000, guid: df6634121d7fabd4ca00f8a05b3f0cfb, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - PlatformBlue
+  - PlatformWhite
+  - PlatformOrange
+  - Door
+  - Spikes
+  - Center1
+  - Center2
+  - BoxWhite
+  - Walk1
+  - Walk2
+  - Walk3
+  - Walk4
+  - BoxBlue
+  - tall_3
+  - tall_2
+  - tall_1
+  - Jump
+  - Bottom
+  - single_width_branch_3way
+  - Idle
+  - Center
+  - long_1
+  - long_2
+  - long_3
+  - corner2tl
+  - BoxOrange
+  - Corner
+  - single_width_branch_4way
   m_Tag: Props
   m_IsVariant: 0

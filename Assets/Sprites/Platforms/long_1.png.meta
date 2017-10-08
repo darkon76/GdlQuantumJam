@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 6c4cddf9f88c4ff4d9a55c2deb20784a
-timeCreated: 1507384877
+guid: e7a753ec5b4288e43a0c595f37ea28d0
+timeCreated: 1507497779
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -71,7 +71,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: WebGL
+  - buildTarget: Android
     maxTextureSize: 2048
     textureFormat: -1
     textureCompression: 0
@@ -79,7 +79,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Android
+  - buildTarget: WebGL
     maxTextureSize: 2048
     textureFormat: -1
     textureCompression: 0
@@ -92,7 +92,7 @@ TextureImporter:
     sprites: []
     outline: []
     physicsShape: []
-  spritePackingTag: Props
+  spritePackingTag: 
   userData: 
   assetBundleName: 
   assetBundleVariant: 

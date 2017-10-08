@@ -216,7 +216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _fadeTime: 1
   _loadingMaterial: {fileID: 2100000, guid: 7624d611bd330e44b80ef65275598a16, type: 2}
-  currentScene: 6
+  currentScene: 1
   maxLevels: 100
 --- !u!1 &319524422
 GameObject:
@@ -645,7 +645,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BackGroundColor: {r: 0.19215688, g: 0.18823531, b: 0.19215688, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0

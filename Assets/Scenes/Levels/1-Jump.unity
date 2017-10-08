@@ -151,7 +151,14 @@ Prefab:
       propertyPath: m_Name
       value: GroundTile (4)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 212621703368376604, guid: db11afefdd7b0b04285dd6425bc771a3,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bed5a7484a9b86944a86c2bdc1acd2dd,
+        type: 3}
+    m_RemovedComponents:
+    - {fileID: 114924344885244898, guid: db11afefdd7b0b04285dd6425bc771a3, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: db11afefdd7b0b04285dd6425bc771a3, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &342063858 stripped
@@ -202,7 +209,14 @@ Prefab:
       propertyPath: m_Name
       value: GroundTile (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 212621703368376604, guid: db11afefdd7b0b04285dd6425bc771a3,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c666cd0c55f0ecf4aa1c52d419da77d1,
+        type: 3}
+    m_RemovedComponents:
+    - {fileID: 114924344885244898, guid: db11afefdd7b0b04285dd6425bc771a3, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: db11afefdd7b0b04285dd6425bc771a3, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &391025844 stripped
@@ -253,7 +267,14 @@ Prefab:
       propertyPath: m_Name
       value: GroundTile (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 212621703368376604, guid: db11afefdd7b0b04285dd6425bc771a3,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e7a753ec5b4288e43a0c595f37ea28d0,
+        type: 3}
+    m_RemovedComponents:
+    - {fileID: 114924344885244898, guid: db11afefdd7b0b04285dd6425bc771a3, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: db11afefdd7b0b04285dd6425bc771a3, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &407729114 stripped
@@ -385,7 +406,14 @@ Prefab:
       propertyPath: m_Name
       value: GroundTile (6)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 212621703368376604, guid: db11afefdd7b0b04285dd6425bc771a3,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bed5a7484a9b86944a86c2bdc1acd2dd,
+        type: 3}
+    m_RemovedComponents:
+    - {fileID: 114924344885244898, guid: db11afefdd7b0b04285dd6425bc771a3, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: db11afefdd7b0b04285dd6425bc771a3, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &1124110621 stripped
@@ -642,7 +670,14 @@ Prefab:
       propertyPath: m_Name
       value: GroundTile (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 212621703368376604, guid: db11afefdd7b0b04285dd6425bc771a3,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e7f7319586921ac47b091ee80dff6b82,
+        type: 3}
+    m_RemovedComponents:
+    - {fileID: 114924344885244898, guid: db11afefdd7b0b04285dd6425bc771a3, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: db11afefdd7b0b04285dd6425bc771a3, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &1342271288 stripped
@@ -929,7 +964,14 @@ Prefab:
       propertyPath: m_Name
       value: GroundTile (5)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 212621703368376604, guid: db11afefdd7b0b04285dd6425bc771a3,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: aeb4229fe4b45ec4cb40431a6dacd1b5,
+        type: 3}
+    m_RemovedComponents:
+    - {fileID: 114924344885244898, guid: db11afefdd7b0b04285dd6425bc771a3, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: db11afefdd7b0b04285dd6425bc771a3, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &2087156466 stripped

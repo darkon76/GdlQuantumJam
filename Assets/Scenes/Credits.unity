@@ -176,8 +176,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Thanks for playing.\nYou are the best \n   -XOXO\n\nNew leveles coming
-    soon.... \n.... Maybe...\n"
+  m_Text: "Thanks for playing.\nYou are the best \n   -XOXO\n\nMarlon R. Coding guy\nMario
+    Vespa Music guy\nGrey M. Art guy\n\n"
 --- !u!222 &74551045
 CanvasRenderer:
   m_ObjectHideFlags: 0

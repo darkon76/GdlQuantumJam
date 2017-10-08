@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/CommonLevelScene.unity
     guid: 8d6527278b6c9a84688ec89eed30b579
   - enabled: 0
-    path: Assets/Scenes/Levels/1-WASD.unity
+    path: 
     guid: ccdd394d9b67df6408487f8cdceb461d
   - enabled: 1
     path: Assets/Scenes/Levels/1-Jump.unity
@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/6-Clone.unity
     guid: 75b547de33269b84b8cb6d14c8da089c
+  - enabled: 1
+    path: Assets/Scenes/Levels/7-Platforming.unity
+    guid: 2a226e11b254a064198e9e6bec6aa56d
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 9fbbb7ba7cd2b9b418161f4b22b9804c
