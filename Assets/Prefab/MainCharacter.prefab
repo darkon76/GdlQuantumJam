@@ -42,8 +42,8 @@ GameObject:
   - component: {fileID: 50016179676836742}
   m_Layer: 10
   m_Name: MainCharacter
-  m_TagString: Untagged
-  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+  m_TagString: Player
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -54,7 +54,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1886824817666458}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.23, y: 2.92, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4519435176285530}
@@ -68,7 +68,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1322694808847756}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.28, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4238370635868332}
@@ -82,7 +82,7 @@ Rigidbody2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1886824817666458}
   m_BodyType: 0
-  m_Simulated: 0
+  m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
@@ -93,7 +93,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 0
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &70451730738191110
 CapsuleCollider2D:
   m_ObjectHideFlags: 1
@@ -102,12 +102,12 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 1886824817666458}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 687af5fc5578ee742a65b254d669f4c8, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.61}
-  m_Size: {x: 0.77, y: 1.17}
+  m_Offset: {x: 0, y: 0.46}
+  m_Size: {x: 0.43, y: 0.84}
   m_Direction: 0
 --- !u!95 &95566019308265460
 Animator:
@@ -137,12 +137,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b672655f6b7c9341affd099d9ad59a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 1
-  IsGrounded: 0
+  Speed: 210
+  _direction: 0
+  JumpForce: 400
+  _jumpTime: 1
+  IsGrounded: 1
   _radiousCheck: 0.1
   _goundMask:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 513
   AtLadder: 0
   _ladderTag: Ladder
 --- !u!114 &114903241534997420

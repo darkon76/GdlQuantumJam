@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AnimatorKeys
 {
-    public static int IsWalking = Animator.StringToHash("IsWalking");
-    public static int IsClimbing = Animator.StringToHash("IsClimbing");
-    public static int IsGrounded = Animator.StringToHash("IsGrounded");
+    public static readonly int IsWalking = Animator.StringToHash("IsWalking");
+    public static readonly int IsClimbing = Animator.StringToHash("IsClimbing");
+    public static readonly int IsGrounded = Animator.StringToHash("IsGrounded");
 }

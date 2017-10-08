@@ -17,6 +17,7 @@ public class Movement : MonoBehaviour
     public float JumpForce = 200f;
     private bool _wantToJump = false;
     private bool _isJumping = false;
+    private bool _hasJumped = false;
     private float _jumpTimer = 0;
     [SerializeField]
     private float _jumpTime = 1;
@@ -73,20 +74,42 @@ public class Movement : MonoBehaviour
         velocity.x = Speed * _direction * Time.fixedDeltaTime;
 
 
-        IsGrounded =  Physics2D.OverlapCircleNonAlloc(transform.position, _radiousCheck, _colliders2D, _goundMask) != 0;
+        var collisionNumber =  Physics2D.OverlapCircleNonAlloc(transform.position, _radiousCheck, _colliders2D, _goundMask);
+        IsGrounded = collisionNumber != 0;
         _animator.SetBool(AnimatorKeys.IsGrounded, IsGrounded);
-        if(IsGrounded)
+
+
+        if( IsGrounded )
         {
-            if (_wantToJump && !_isJumping)
+            if( transform.parent == null )
+            {
+                for( var i = collisionNumber - 1; i >= 0; i-- )
+                {
+                    if( _colliders2D[i].CompareTag( "MovingPlatform" ) )
+                    {
+                       // transform.SetParent( _colliders2D[i].transform );
+                        break;
+                    }
+                }
+            }
+
+            if( _wantToJump &&!_hasJumped && !_isJumping )
             {
                 _jumpTimer = 0;
+                _hasJumped = true;
                 _isJumping = true;
                 _rigid.gravityScale = 0;
                 velocity.y = JumpForce * Time.fixedDeltaTime;
             }
 
         }
+        else if( transform.parent != null)
+        {
+     //       transform.SetParent( null );
+        }
 
+        if( !_wantToJump )
+            _hasJumped = false;
 
 
         if (!IsGrounded && _wantToJump && _isJumping && _jumpTimer < _jumpTime)

@@ -5,7 +5,6 @@ using UnityEngine.EventSystems;
 
 public class Entangable : MonoBehaviour, IPointerClickHandler
 {
-    EntangleManager _manager;
     SpriteRenderer _spriteRenderer;
 
     [SerializeField]
@@ -43,20 +42,29 @@ public class Entangable : MonoBehaviour, IPointerClickHandler
     void Awake()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
-        _manager = FindObjectOfType<EntangleManager>();
+
     }
+    private void OnDisable()
+    {
+        EntangleManager.Instance.Remove( this );
+    }
+
     public void OnPointerClick(PointerEventData eventData)
     {
         if (eventData.button != 0)
             return;
-        if(_entangled != 0)
-        {
-            Entangled = 0;
-            _manager.Remove(this);
-            return;
-        }
-        Entangled = _manager.TryEntangle(this);
+        TryEntangle( );
     }
 
+    public void TryEntangle()
+    {
+        if( _entangled != 0 )
+        {
+            Entangled = 0;
+            EntangleManager.Instance.Remove( this );
+            return;
+        }
+        Entangled = EntangleManager.Instance.TryEntangle( this );
+    }
 
 }
