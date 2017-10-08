@@ -26,11 +26,11 @@ SpriteAtlas:
       enableTightPacking: 0
     packedHash:
       serializedVersion: 2
-      Hash: 29cb14d155c893a506705268aad962b5
+      Hash: 8c31608deb7a0e254b12e064a89c3389
     variantMultiplier: 1
     bindAsDefault: 1
     finalFormat: 4
-    hashString: 29cb14d155c893a506705268aad962b5
+    hashString: 8c31608deb7a0e254b12e064a89c3389
     totalSpriteSurfaceArea: 83520
     packables:
     - {fileID: 102900000, guid: efb3f4885073a99419771aa98e8349fe, type: 3}
@@ -51,12 +51,12 @@ SpriteAtlas:
     - ac12458dccb324a4b8b392b42dc07987: 21300000
     - e0e851564b511a0479e086f901f895bd: 21300000
     - dbd088adca361c74d90f06011ab58747: 21300000
-    - 4c786bd7c39b31346a4df6297b53602f: 21300000
     - 1b7df4e80a366a443a2d93934fde8604: 21300000
     - 5f3e22e700f58c64984d86cc04f9aefb: 21300000
     - b19216516ede2984d97b4f59f80fa83d: 21300000
     - 6c4cddf9f88c4ff4d9a55c2deb20784a: 21300000
     - 07ffd2a8224d7ca4c9c3f86981e71959: 21300000
+    - 4c786bd7c39b31346a4df6297b53602f: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: ea025c99562de3d459888a1b43f81ce0, type: 3}
@@ -75,12 +75,12 @@ SpriteAtlas:
   - {fileID: 21300000, guid: ac12458dccb324a4b8b392b42dc07987, type: 3}
   - {fileID: 21300000, guid: e0e851564b511a0479e086f901f895bd, type: 3}
   - {fileID: 21300000, guid: dbd088adca361c74d90f06011ab58747, type: 3}
-  - {fileID: 21300000, guid: 4c786bd7c39b31346a4df6297b53602f, type: 3}
   - {fileID: 21300000, guid: 1b7df4e80a366a443a2d93934fde8604, type: 3}
   - {fileID: 21300000, guid: 5f3e22e700f58c64984d86cc04f9aefb, type: 3}
   - {fileID: 21300000, guid: b19216516ede2984d97b4f59f80fa83d, type: 3}
   - {fileID: 21300000, guid: 6c4cddf9f88c4ff4d9a55c2deb20784a, type: 3}
   - {fileID: 21300000, guid: 07ffd2a8224d7ca4c9c3f86981e71959, type: 3}
+  - {fileID: 21300000, guid: 4c786bd7c39b31346a4df6297b53602f, type: 3}
   m_PackedSpriteNamesToIndex:
   - Climb2
   - Climb1
@@ -98,11 +98,11 @@ SpriteAtlas:
   - Walk3
   - Walk4
   - BoxBlue
-  - cornerbl
   - Jump
   - Bottom
   - Idle
   - Center
   - BoxOrange
+  - Corner
   m_Tag: Props
   m_IsVariant: 0
