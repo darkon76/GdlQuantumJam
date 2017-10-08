@@ -26,83 +26,16 @@ SpriteAtlas:
       enableTightPacking: 0
     packedHash:
       serializedVersion: 2
-      Hash: 8c31608deb7a0e254b12e064a89c3389
+      Hash: 6b5d6da1dce0b49c7dbf83f9f8a2fa83
     variantMultiplier: 1
     bindAsDefault: 1
     finalFormat: 4
-    hashString: 8c31608deb7a0e254b12e064a89c3389
-    totalSpriteSurfaceArea: 83520
-    packables:
-    - {fileID: 102900000, guid: efb3f4885073a99419771aa98e8349fe, type: 3}
-    packedSpriteRenderDataKeys:
-    - ea025c99562de3d459888a1b43f81ce0: 21300000
-    - e6b27040a45b50046a244b813363d137: 21300000
-    - 7956a76d75901c74d80f1f4cfd2fe63e: 21300000
-    - cad5b3e391e4aa84dbf68f867f75b862: 21300000
-    - 3727046bff2a6bd409d72fa491b221fa: 21300000
-    - e34332decaa57294ea0f744a2733153e: 21300000
-    - 929680f60714e6443bae0e74fce48e0c: 21300000
-    - b2f53176f949bf8409ef16c661011500: 21300000
-    - 38ac7663cbe0c6c44b419d59887aa37c: 21300000
-    - 4e56c5dd14091a949b99c792b6494dcc: 21300000
-    - 49e4bfae4b01ed546827fd12a2692713: 21300000
-    - 4bebd6c7e53d96641868c4178c73b171: 21300000
-    - 311383c9f627ffc49a68989b92608e5d: 21300000
-    - ac12458dccb324a4b8b392b42dc07987: 21300000
-    - e0e851564b511a0479e086f901f895bd: 21300000
-    - dbd088adca361c74d90f06011ab58747: 21300000
-    - 1b7df4e80a366a443a2d93934fde8604: 21300000
-    - 5f3e22e700f58c64984d86cc04f9aefb: 21300000
-    - b19216516ede2984d97b4f59f80fa83d: 21300000
-    - 6c4cddf9f88c4ff4d9a55c2deb20784a: 21300000
-    - 07ffd2a8224d7ca4c9c3f86981e71959: 21300000
-    - 4c786bd7c39b31346a4df6297b53602f: 21300000
+    hashString: 6b5d6da1dce0b49c7dbf83f9f8a2fa83
+    totalSpriteSurfaceArea: 0
+    packables: []
+    packedSpriteRenderDataKeys: []
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites:
-  - {fileID: 21300000, guid: ea025c99562de3d459888a1b43f81ce0, type: 3}
-  - {fileID: 21300000, guid: e6b27040a45b50046a244b813363d137, type: 3}
-  - {fileID: 21300000, guid: 7956a76d75901c74d80f1f4cfd2fe63e, type: 3}
-  - {fileID: 21300000, guid: cad5b3e391e4aa84dbf68f867f75b862, type: 3}
-  - {fileID: 21300000, guid: 3727046bff2a6bd409d72fa491b221fa, type: 3}
-  - {fileID: 21300000, guid: e34332decaa57294ea0f744a2733153e, type: 3}
-  - {fileID: 21300000, guid: 929680f60714e6443bae0e74fce48e0c, type: 3}
-  - {fileID: 21300000, guid: b2f53176f949bf8409ef16c661011500, type: 3}
-  - {fileID: 21300000, guid: 38ac7663cbe0c6c44b419d59887aa37c, type: 3}
-  - {fileID: 21300000, guid: 4e56c5dd14091a949b99c792b6494dcc, type: 3}
-  - {fileID: 21300000, guid: 49e4bfae4b01ed546827fd12a2692713, type: 3}
-  - {fileID: 21300000, guid: 4bebd6c7e53d96641868c4178c73b171, type: 3}
-  - {fileID: 21300000, guid: 311383c9f627ffc49a68989b92608e5d, type: 3}
-  - {fileID: 21300000, guid: ac12458dccb324a4b8b392b42dc07987, type: 3}
-  - {fileID: 21300000, guid: e0e851564b511a0479e086f901f895bd, type: 3}
-  - {fileID: 21300000, guid: dbd088adca361c74d90f06011ab58747, type: 3}
-  - {fileID: 21300000, guid: 1b7df4e80a366a443a2d93934fde8604, type: 3}
-  - {fileID: 21300000, guid: 5f3e22e700f58c64984d86cc04f9aefb, type: 3}
-  - {fileID: 21300000, guid: b19216516ede2984d97b4f59f80fa83d, type: 3}
-  - {fileID: 21300000, guid: 6c4cddf9f88c4ff4d9a55c2deb20784a, type: 3}
-  - {fileID: 21300000, guid: 07ffd2a8224d7ca4c9c3f86981e71959, type: 3}
-  - {fileID: 21300000, guid: 4c786bd7c39b31346a4df6297b53602f, type: 3}
-  m_PackedSpriteNamesToIndex:
-  - Climb2
-  - Climb1
-  - ExitSign
-  - PlatformBlue
-  - PlatformWhite
-  - PlatformOrange
-  - Door
-  - Spikes
-  - Center1
-  - Center2
-  - BoxWhite
-  - Walk1
-  - Walk2
-  - Walk3
-  - Walk4
-  - BoxBlue
-  - Jump
-  - Bottom
-  - Idle
-  - Center
-  - BoxOrange
-  - Corner
+  m_PackedSprites: []
+  m_PackedSpriteNamesToIndex: []
   m_Tag: Props
   m_IsVariant: 0
